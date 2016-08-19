@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>扫一扫拨号</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <style>
+    	img{
+    		width: 320px;
+    	}
+    </style>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <h1 class="mui-title">扫一扫拨号</h1>
+	</header>
+
+	<div class="mui-content">
+		<div class="mui-content-padded">
+			<div class="mui-col-sm-12 mui-col-xs-12 btn-start">
+				<!--<span class="mui-icon mui-icon-videocam"></span>-->
+				<button id="btn-start-rec" class="mui-btn mui-btn-block mui-btn-outlined">开始识别</button>
+			</div>
+			<div class="mui-col-sm-12 mui-col-xs-12">
+				<p id="number-result"></p>
+				<a href="">banner for incoming...</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/mui.min.js"></script>
+	<script src="js/ocrad.js"></script>
+	<!--<script src="js/gocr.js"></script>-->
+	<script src="js/index.js"></script>
+</body>
+</html>
